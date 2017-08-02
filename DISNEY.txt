@@ -1,1 +1,6 @@
 disney.1
+
+While sc1->(!Eof())
+	aAdd (aRetorno {sc1->C1_NUM,sc1->C1_ITEM,sc1->C1_CODCOMP,sc1->C1_EMISSAO})
+	sc1->(dbSkip())
+enddo
