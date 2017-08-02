@@ -4,3 +4,9 @@ If (mv_par03)=1
 	ElseIf (mv_par03)=2
 	cQuery += " and ct1_conta = '"+" "+"'" //null
 Endif
+
+If (mv_par04)=1   
+	cQuery += " Having count(*) > 1" 
+	ElseIf (mv_par04)=2
+	cQuery += " and ct1_conta = '"+" "+"'" //null
+Endif
