@@ -1,0 +1,6 @@
+If (mv_par03)=1   
+	cQuery += " Group by "+cCampos //Muitos	  
+	cQuery += " Having count(*) > 1" 
+	ElseIf (mv_par03)=2
+	cQuery += " and ct1_conta = '"+" "+"'" //null
+Endif
