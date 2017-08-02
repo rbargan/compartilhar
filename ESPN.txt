@@ -1,3 +1,12 @@
-novo arquivo 
+For c:= 1 To 10
+	linha += 40
+	nContador++
+	
+	If nContador > 10
+		nContador 	:= 1
+		linha 		:= 100
+	EndIf
+	
+next
+	
 
-alteraçôes no arquivo
